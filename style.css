@@ -2,3 +2,39 @@ body{
     background-color: #FBFBFB;
     display: block;
 }
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+.footer-bottom {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
+
+.features-icons {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+  
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+  
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+  
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+  
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+}
