@@ -1,6 +1,7 @@
 body{
     background-color: #FBFBFB;
     display: block;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .page-container{
@@ -18,23 +19,39 @@ body{
     width: 100%;
 }
 
-.features-icons {
+.background-homepage{
+    background-image: url(isec.png);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:40vh;
+    position: relative;
+}
+
+.text-box-homepage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-icons {
     padding-top: 2rem;
     padding-bottom: 7rem;
 }
   
-.features-icons .features-icons-item {
+.hero-icons .hero-icons-item {
     max-width: 20rem;
 }
   
-.features-icons .features-icons-item .features-icons-icon {
+.hero-icons .hero-icons-item .hero-icons-icon {
     height: 7rem;
 }
   
-.features-icons .features-icons-item .features-icons-icon i {
+.hero-icons .hero-icons-item .hero-icons-icon i {
     font-size: 4.5rem;
 }
   
-.features-icons .features-icons-item:hover .features-icons-icon i {
+.hero-icons .hero-icons-item:hover .hero-icons-icon i {
     font-size: 5rem;
 }
